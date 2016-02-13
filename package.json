@@ -1,0 +1,36 @@
+{
+  "name": "eisenhower-habitica-addon",
+  "version": "0.0.1",
+  "description": "A convienient way to handle and mark your todo list from habitica",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --hot --inline",
+    "build": "~",
+    "test": "~",
+    "test:ci": "~"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/JasoonS/eisenhower-habitica.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JasoonS/eisenhower-habitica/issues"
+  },
+  "homepage": "https://github.com/JasoonS/eisenhower-habitica#readme",
+  "dependencies": {
+    "babel-core": "^6.5.2",
+    "babel-loader": "^6.2.2",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-react": "^6.5.0",
+    "habitica": "^1.1.0",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "react-hot-loader": "^1.3.0",
+    "webpack": "^1.12.13"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^1.14.1"
+  }
+}
